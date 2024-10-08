@@ -10,7 +10,7 @@ h2 {
   text-align: center;
   font-size: 4rem;
 }
-.contianer {
+.container {
   max-width: 120rem;
   margin: 10rem auto;
   padding: 3rem;
@@ -20,9 +20,6 @@ h2 {
   color: black;
   text-align: center;
   font-size: 0.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .buttons {
   display: flex;
