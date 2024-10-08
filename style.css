@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+.contianer {
+  max-width: 120rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  box-sizing: 0 0.2rem 0 0.3rem rgba(0, 0, 0, 0.664);
+  border-radius: 0.3rem;
+  background-color: antiquewhite;
+  color: black;
+  text-align: center;
+  font-size: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.buttons button {
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border: 0.1rem solid #333;
+  color: #333;
+  outline: none;
+  font-size: 1.8rem;
+}
